@@ -1,0 +1,22 @@
+Not imported due to missing license in SVD files:
+
+ - NXP/LPC1102_4_v4.svd
+ - NXP/LPC11Axxv0.6.svd
+ - NXP/LPC11Cxx_v9.svd
+ - NXP/LPC11D14_svd_v4.svd
+ - NXP/LPC11E6x_v0.8.svd
+ - NXP/LPC11Exx_v5.svd
+ - NXP/LPC11Uxx_v7.svd
+ - NXP/LPC11xx_v6.svd
+ - NXP/LPC11xx_v6a.svd
+ - NXP/LPC13Uxx_v1.svd
+ - NXP/LPC13xx_svd_v1.svd
+ - NXP/LPC15xx_v0.7.svd
+ - NXP/LPC176x5x_v0.2.svd
+ - NXP/LPC178x_7x.svd
+ - NXP/LPC178x_7x_v0.8.svd
+ - NXP/LPC18xx_svd_v18.svd
+ - NXP/LPC408x_7x_v0.7.svd
+ - NXP/LPC43xx_43Sxx.svd
+ - NXP/LPC5410x_v0.4.svd
+ - NXP/LPC800_v0.3.svd
