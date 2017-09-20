@@ -1,0 +1,84 @@
+/*
+ * OpenMPTL - C++ Microprocessor Template Library
+ *
+ * This program is a derivative representation of a CMSIS System View
+ * Description (SVD) file, and is subject to the corresponding license
+ * (see "License.html" in the parent directory).
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ */
+
+////////////////////////////////////////////////////////////////////////
+//
+//  Import from CMSIS-SVD: "STMicro/STM32F101xx.svd"
+//
+//  name: STM32F101xx
+//  version: 1.1
+//  description: STM32F101xx
+//  --------------------------------------------------------------------
+//
+//  C++ Header file, containing architecture specific register
+//  declarations for use in OpenMPTL. It has been converted directly
+//  from a CMSIS-SVD file.
+//
+//  https://digint.ch/openmptl
+//  https://github.com/posborne/cmsis-svd
+//
+
+#ifndef ARCH_REG_WWDG_HPP_INCLUDED
+#define ARCH_REG_WWDG_HPP_INCLUDED
+
+#warning "using untested register declarations"
+
+#include <register.hpp>
+
+namespace mptl {
+
+/**
+ * Window watchdog
+ */
+struct WWDG
+{
+  static constexpr reg_addr_t base_addr = 0x40002c00;
+
+  /**
+   * Control register (WWDG_CR)
+   */
+  struct CR
+  : public reg< uint32_t, base_addr + 0x0, rw, 0x0000007F >
+  {
+    using type = reg< uint32_t, base_addr + 0x0, rw, 0x0000007F >;
+
+    using T     = regbits< type,  0,  7 >;  /**< 7-bit counter (MSB to LSB)  */
+    using WDGA  = regbits< type,  7,  1 >;  /**< Activation bit              */
+  };
+
+  /**
+   * Configuration register (WWDG_CFR)
+   */
+  struct CFR
+  : public reg< uint32_t, base_addr + 0x4, rw, 0x0000007F >
+  {
+    using type = reg< uint32_t, base_addr + 0x4, rw, 0x0000007F >;
+
+    using W      = regbits< type,  0,  7 >;  /**< 7-bit window value      */
+    using WDGTB  = regbits< type,  7,  2 >;  /**< Timer Base              */
+    using EWI    = regbits< type,  9,  1 >;  /**< Early Wakeup Interrupt  */
+  };
+
+  /**
+   * Status register (WWDG_SR)
+   */
+  struct SR
+  : public reg< uint32_t, base_addr + 0x8, rw, 0x00000000 >
+  {
+    using type = reg< uint32_t, base_addr + 0x8, rw, 0x00000000 >;
+
+    using EWI  = regbits< type,  0,  1 >;  /**< Early Wakeup Interrupt  */
+  };
+};
+} // namespace mptl
+
+#endif // ARCH_REG_WWDG_HPP_INCLUDED

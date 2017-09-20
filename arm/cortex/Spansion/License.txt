@@ -1,0 +1,50 @@
+FUJITSU SEMICONDUCTOR LIMITED (gLICENSORh) hereby grants and
+you (gLICENSEEh) hereby accept a non transferable, non-exclusive
+licence to use and copy the deliverables (gDeliverablesh) solely for
+the purpose of; (i) developing LICENSEEfs development tools and
+distributing such development tools to third parties; (ii) generating
+derivative representations of the Deliverables to develop and debug
+software for LICENSORfs targeted devices or device series identified
+within the Deliverables, (together the gPurposeh) under the following
+terms and conditions:
+
+1. Ownership.
+The Deliverables are the property of LICENSOR. LICENSEE acquires no
+right, title or interest in the Deliverables other than the licence
+rights granted herein.
+
+2. Use.
+LICENSEE shall only be permitted to use the Deliverables for the
+Purpose. LICENSEE shall not reverse engineer, decompile or
+disassemble the Deliverables, in whole or in part.
+
+3. Copies.
+All copies of the Deliverables must bear the same notice(s) contained
+on the original copies of the Deliverables.
+
+4. No Warranty.
+THE DELIVERABLES ARE PROVIDED gAS ISh AND ANY EXPRESS, IMPLIED OR
+STATUTORY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES HOWEVER CAUSED
+AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+THE USE OF THE DELIVERABLES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+LICENSEE EXPRESSLY ASSUMES ALL LIABILITIES AND RISKS, FOR USE OR
+OPERATION OF THE DELIVERABLES.
+
+5.In the event that LICENSEE receives early access to the Deliverables,
+LICENSEE acknowledges and agrees that;
+(a) notwithstanding the licence grants above, LICENSEE shall only be
+permitted to use the Deliverables solely internally for evaluation and
+providing feedback to LICENSOR;
+(b) except with respect to the limited licence grants in 5(a), LICENSEE
+shall be subject to all of the terms and conditions set out above; and
+(c) the Deliverables are confidential information and LICENSEE shall
+maintain in confidence the Deliverables and apply security measures no
+less stringent than the measures that LICENSEE applies to its own like
+information, but not less than a reasonable degree of care, to prevent
+unauthorised disclosure and use of the Deliverables.

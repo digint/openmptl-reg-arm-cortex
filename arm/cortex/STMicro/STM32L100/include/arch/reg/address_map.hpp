@@ -1,0 +1,460 @@
+/*
+ * OpenMPTL - C++ Microprocessor Template Library
+ *
+ * This program is a derivative representation of a CMSIS System View
+ * Description (SVD) file, and is subject to the corresponding license
+ * (see "License.html" in the parent directory).
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ */
+
+////////////////////////////////////////////////////////////////////////
+//
+//  Import from CMSIS-SVD: "STMicro/STM32L100.svd"
+//
+//  name: STM32L100
+//  version: 1.0
+//  description: STM32L100
+//  --------------------------------------------------------------------
+//
+//  C++ Header file, containing architecture specific register
+//  declarations for use in OpenMPTL. It has been converted directly
+//  from a CMSIS-SVD file.
+//
+//  https://digint.ch/openmptl
+//  https://github.com/posborne/cmsis-svd
+//
+
+#ifndef ARCH_REG_ADDRESS_MAP_HPP_INCLUDED
+#define ARCH_REG_ADDRESS_MAP_HPP_INCLUDED
+
+#warning "using untested register declarations"
+
+#include <register_type.hpp>
+
+namespace mptl {
+
+template<reg_addr_t addr>
+struct address_map {
+  static constexpr const char * name_str = nullptr;
+};
+
+template<> struct address_map< 0x40000000 > { static constexpr const char * name_str = "TIM2::CR1"; };
+template<> struct address_map< 0x40000004 > { static constexpr const char * name_str = "TIM2::CR2"; };
+template<> struct address_map< 0x40000008 > { static constexpr const char * name_str = "TIM2::SMCR"; };
+template<> struct address_map< 0x4000000c > { static constexpr const char * name_str = "TIM2::DIER"; };
+template<> struct address_map< 0x40000010 > { static constexpr const char * name_str = "TIM2::SR"; };
+template<> struct address_map< 0x40000014 > { static constexpr const char * name_str = "TIM2::EGR"; };
+template<> struct address_map< 0x40000018 > { static constexpr const char * name_str = "TIM2::CCMR1"; };
+template<> struct address_map< 0x4000001c > { static constexpr const char * name_str = "TIM2::CCMR2"; };
+template<> struct address_map< 0x40000020 > { static constexpr const char * name_str = "TIM2::CCER"; };
+template<> struct address_map< 0x40000024 > { static constexpr const char * name_str = "TIM2::CNT"; };
+template<> struct address_map< 0x40000028 > { static constexpr const char * name_str = "TIM2::PSC"; };
+template<> struct address_map< 0x4000002c > { static constexpr const char * name_str = "TIM2::ARR"; };
+template<> struct address_map< 0x40000034 > { static constexpr const char * name_str = "TIM2::CCR1"; };
+template<> struct address_map< 0x40000038 > { static constexpr const char * name_str = "TIM2::CCR2"; };
+template<> struct address_map< 0x4000003c > { static constexpr const char * name_str = "TIM2::CCR3"; };
+template<> struct address_map< 0x40000040 > { static constexpr const char * name_str = "TIM2::CCR4"; };
+template<> struct address_map< 0x40000048 > { static constexpr const char * name_str = "TIM2::DCR"; };
+template<> struct address_map< 0x4000004c > { static constexpr const char * name_str = "TIM2::DMAR"; };
+template<> struct address_map< 0x40000400 > { static constexpr const char * name_str = "TIM3::CR1"; };
+template<> struct address_map< 0x40000404 > { static constexpr const char * name_str = "TIM3::CR2"; };
+template<> struct address_map< 0x40000408 > { static constexpr const char * name_str = "TIM3::SMCR"; };
+template<> struct address_map< 0x4000040c > { static constexpr const char * name_str = "TIM3::DIER"; };
+template<> struct address_map< 0x40000410 > { static constexpr const char * name_str = "TIM3::SR"; };
+template<> struct address_map< 0x40000414 > { static constexpr const char * name_str = "TIM3::EGR"; };
+template<> struct address_map< 0x40000418 > { static constexpr const char * name_str = "TIM3::CCMR1"; };
+template<> struct address_map< 0x4000041c > { static constexpr const char * name_str = "TIM3::CCMR2"; };
+template<> struct address_map< 0x40000420 > { static constexpr const char * name_str = "TIM3::CCER"; };
+template<> struct address_map< 0x40000424 > { static constexpr const char * name_str = "TIM3::CNT"; };
+template<> struct address_map< 0x40000428 > { static constexpr const char * name_str = "TIM3::PSC"; };
+template<> struct address_map< 0x4000042c > { static constexpr const char * name_str = "TIM3::ARR"; };
+template<> struct address_map< 0x40000434 > { static constexpr const char * name_str = "TIM3::CCR1"; };
+template<> struct address_map< 0x40000438 > { static constexpr const char * name_str = "TIM3::CCR2"; };
+template<> struct address_map< 0x4000043c > { static constexpr const char * name_str = "TIM3::CCR3"; };
+template<> struct address_map< 0x40000440 > { static constexpr const char * name_str = "TIM3::CCR4"; };
+template<> struct address_map< 0x40000448 > { static constexpr const char * name_str = "TIM3::DCR"; };
+template<> struct address_map< 0x4000044c > { static constexpr const char * name_str = "TIM3::DMAR"; };
+template<> struct address_map< 0x40000800 > { static constexpr const char * name_str = "TIM4::CR1"; };
+template<> struct address_map< 0x40000804 > { static constexpr const char * name_str = "TIM4::CR2"; };
+template<> struct address_map< 0x40000808 > { static constexpr const char * name_str = "TIM4::SMCR"; };
+template<> struct address_map< 0x4000080c > { static constexpr const char * name_str = "TIM4::DIER"; };
+template<> struct address_map< 0x40000810 > { static constexpr const char * name_str = "TIM4::SR"; };
+template<> struct address_map< 0x40000814 > { static constexpr const char * name_str = "TIM4::EGR"; };
+template<> struct address_map< 0x40000818 > { static constexpr const char * name_str = "TIM4::CCMR1"; };
+template<> struct address_map< 0x4000081c > { static constexpr const char * name_str = "TIM4::CCMR2"; };
+template<> struct address_map< 0x40000820 > { static constexpr const char * name_str = "TIM4::CCER"; };
+template<> struct address_map< 0x40000824 > { static constexpr const char * name_str = "TIM4::CNT"; };
+template<> struct address_map< 0x40000828 > { static constexpr const char * name_str = "TIM4::PSC"; };
+template<> struct address_map< 0x4000082c > { static constexpr const char * name_str = "TIM4::ARR"; };
+template<> struct address_map< 0x40000834 > { static constexpr const char * name_str = "TIM4::CCR1"; };
+template<> struct address_map< 0x40000838 > { static constexpr const char * name_str = "TIM4::CCR2"; };
+template<> struct address_map< 0x4000083c > { static constexpr const char * name_str = "TIM4::CCR3"; };
+template<> struct address_map< 0x40000840 > { static constexpr const char * name_str = "TIM4::CCR4"; };
+template<> struct address_map< 0x40000848 > { static constexpr const char * name_str = "TIM4::DCR"; };
+template<> struct address_map< 0x4000084c > { static constexpr const char * name_str = "TIM4::DMAR"; };
+template<> struct address_map< 0x40001000 > { static constexpr const char * name_str = "TIM6::CR1"; };
+template<> struct address_map< 0x40001004 > { static constexpr const char * name_str = "TIM6::CR2"; };
+template<> struct address_map< 0x4000100c > { static constexpr const char * name_str = "TIM6::DIER"; };
+template<> struct address_map< 0x40001010 > { static constexpr const char * name_str = "TIM6::SR"; };
+template<> struct address_map< 0x40001014 > { static constexpr const char * name_str = "TIM6::EGR"; };
+template<> struct address_map< 0x40001024 > { static constexpr const char * name_str = "TIM6::CNT"; };
+template<> struct address_map< 0x40001028 > { static constexpr const char * name_str = "TIM6::PSC"; };
+template<> struct address_map< 0x4000102c > { static constexpr const char * name_str = "TIM6::ARR"; };
+template<> struct address_map< 0x40001400 > { static constexpr const char * name_str = "TIM7::CR1"; };
+template<> struct address_map< 0x40001404 > { static constexpr const char * name_str = "TIM7::CR2"; };
+template<> struct address_map< 0x4000140c > { static constexpr const char * name_str = "TIM7::DIER"; };
+template<> struct address_map< 0x40001410 > { static constexpr const char * name_str = "TIM7::SR"; };
+template<> struct address_map< 0x40001414 > { static constexpr const char * name_str = "TIM7::EGR"; };
+template<> struct address_map< 0x40001424 > { static constexpr const char * name_str = "TIM7::CNT"; };
+template<> struct address_map< 0x40001428 > { static constexpr const char * name_str = "TIM7::PSC"; };
+template<> struct address_map< 0x4000142c > { static constexpr const char * name_str = "TIM7::ARR"; };
+template<> struct address_map< 0x40002400 > { static constexpr const char * name_str = "LCD::CR"; };
+template<> struct address_map< 0x40002404 > { static constexpr const char * name_str = "LCD::FCR"; };
+template<> struct address_map< 0x40002408 > { static constexpr const char * name_str = "LCD::SR"; };
+template<> struct address_map< 0x4000240c > { static constexpr const char * name_str = "LCD::CLR"; };
+template<> struct address_map< 0x40002414 > { static constexpr const char * name_str = "LCD::RAM_COM0"; };
+template<> struct address_map< 0x4000241c > { static constexpr const char * name_str = "LCD::RAM_COM1"; };
+template<> struct address_map< 0x40002424 > { static constexpr const char * name_str = "LCD::RAM_COM2"; };
+template<> struct address_map< 0x4000242c > { static constexpr const char * name_str = "LCD::RAM_COM3"; };
+template<> struct address_map< 0x40002434 > { static constexpr const char * name_str = "LCD::RAM_COM4"; };
+template<> struct address_map< 0x4000243c > { static constexpr const char * name_str = "LCD::RAM_COM5"; };
+template<> struct address_map< 0x40002444 > { static constexpr const char * name_str = "LCD::RAM_COM6"; };
+template<> struct address_map< 0x4000244c > { static constexpr const char * name_str = "LCD::RAM_COM7"; };
+template<> struct address_map< 0x40002800 > { static constexpr const char * name_str = "RTC::TR"; };
+template<> struct address_map< 0x40002804 > { static constexpr const char * name_str = "RTC::DR"; };
+template<> struct address_map< 0x40002808 > { static constexpr const char * name_str = "RTC::CR"; };
+template<> struct address_map< 0x4000280c > { static constexpr const char * name_str = "RTC::ISR"; };
+template<> struct address_map< 0x40002810 > { static constexpr const char * name_str = "RTC::PRER"; };
+template<> struct address_map< 0x40002814 > { static constexpr const char * name_str = "RTC::WUTR"; };
+template<> struct address_map< 0x40002818 > { static constexpr const char * name_str = "RTC::CALIBR"; };
+template<> struct address_map< 0x4000281c > { static constexpr const char * name_str = "RTC::ALRMAR"; };
+template<> struct address_map< 0x40002820 > { static constexpr const char * name_str = "RTC::ALRMBR"; };
+template<> struct address_map< 0x40002824 > { static constexpr const char * name_str = "RTC::WPR"; };
+template<> struct address_map< 0x40002828 > { static constexpr const char * name_str = "RTC::SSR"; };
+template<> struct address_map< 0x4000282c > { static constexpr const char * name_str = "RTC::SHIFTR"; };
+template<> struct address_map< 0x40002830 > { static constexpr const char * name_str = "RTC::TSTR"; };
+template<> struct address_map< 0x40002834 > { static constexpr const char * name_str = "RTC::TSDR"; };
+template<> struct address_map< 0x40002838 > { static constexpr const char * name_str = "RTC::TSSSR"; };
+template<> struct address_map< 0x4000283c > { static constexpr const char * name_str = "RTC::CALR"; };
+template<> struct address_map< 0x40002840 > { static constexpr const char * name_str = "RTC::TAFCR"; };
+template<> struct address_map< 0x40002844 > { static constexpr const char * name_str = "RTC::ALRMASSR"; };
+template<> struct address_map< 0x40002848 > { static constexpr const char * name_str = "RTC::ALRMBSSR"; };
+template<> struct address_map< 0x4000289c > { static constexpr const char * name_str = "RTC::BK0R"; };
+template<> struct address_map< 0x40002c00 > { static constexpr const char * name_str = "WWDG::CR"; };
+template<> struct address_map< 0x40002c04 > { static constexpr const char * name_str = "WWDG::CFR"; };
+template<> struct address_map< 0x40002c08 > { static constexpr const char * name_str = "WWDG::SR"; };
+template<> struct address_map< 0x40003000 > { static constexpr const char * name_str = "IWDG::KR"; };
+template<> struct address_map< 0x40003004 > { static constexpr const char * name_str = "IWDG::PR"; };
+template<> struct address_map< 0x40003008 > { static constexpr const char * name_str = "IWDG::RLR"; };
+template<> struct address_map< 0x4000300c > { static constexpr const char * name_str = "IWDG::SR"; };
+template<> struct address_map< 0x40003800 > { static constexpr const char * name_str = "SPI2::CR1"; };
+template<> struct address_map< 0x40003804 > { static constexpr const char * name_str = "SPI2::CR2"; };
+template<> struct address_map< 0x40003808 > { static constexpr const char * name_str = "SPI2::SR"; };
+template<> struct address_map< 0x4000380c > { static constexpr const char * name_str = "SPI2::DR"; };
+template<> struct address_map< 0x40003810 > { static constexpr const char * name_str = "SPI2::CRCPR"; };
+template<> struct address_map< 0x40003814 > { static constexpr const char * name_str = "SPI2::RXCRCR"; };
+template<> struct address_map< 0x40003818 > { static constexpr const char * name_str = "SPI2::TXCRCR"; };
+template<> struct address_map< 0x4000381c > { static constexpr const char * name_str = "SPI2::I2SCFGR"; };
+template<> struct address_map< 0x40003820 > { static constexpr const char * name_str = "SPI2::I2SPR"; };
+template<> struct address_map< 0x40004400 > { static constexpr const char * name_str = "USART2::SR"; };
+template<> struct address_map< 0x40004404 > { static constexpr const char * name_str = "USART2::DR"; };
+template<> struct address_map< 0x40004408 > { static constexpr const char * name_str = "USART2::BRR"; };
+template<> struct address_map< 0x4000440c > { static constexpr const char * name_str = "USART2::CR1"; };
+template<> struct address_map< 0x40004410 > { static constexpr const char * name_str = "USART2::CR2"; };
+template<> struct address_map< 0x40004414 > { static constexpr const char * name_str = "USART2::CR3"; };
+template<> struct address_map< 0x40004418 > { static constexpr const char * name_str = "USART2::GTPR"; };
+template<> struct address_map< 0x40004800 > { static constexpr const char * name_str = "USART3::SR"; };
+template<> struct address_map< 0x40004804 > { static constexpr const char * name_str = "USART3::DR"; };
+template<> struct address_map< 0x40004808 > { static constexpr const char * name_str = "USART3::BRR"; };
+template<> struct address_map< 0x4000480c > { static constexpr const char * name_str = "USART3::CR1"; };
+template<> struct address_map< 0x40004810 > { static constexpr const char * name_str = "USART3::CR2"; };
+template<> struct address_map< 0x40004814 > { static constexpr const char * name_str = "USART3::CR3"; };
+template<> struct address_map< 0x40004818 > { static constexpr const char * name_str = "USART3::GTPR"; };
+template<> struct address_map< 0x40005400 > { static constexpr const char * name_str = "I2C1::CR1"; };
+template<> struct address_map< 0x40005404 > { static constexpr const char * name_str = "I2C1::CR2"; };
+template<> struct address_map< 0x40005408 > { static constexpr const char * name_str = "I2C1::OAR1"; };
+template<> struct address_map< 0x4000540c > { static constexpr const char * name_str = "I2C1::OAR2"; };
+template<> struct address_map< 0x40005410 > { static constexpr const char * name_str = "I2C1::DR"; };
+template<> struct address_map< 0x40005414 > { static constexpr const char * name_str = "I2C1::SR1"; };
+template<> struct address_map< 0x40005418 > { static constexpr const char * name_str = "I2C1::SR2"; };
+template<> struct address_map< 0x4000541c > { static constexpr const char * name_str = "I2C1::CCR"; };
+template<> struct address_map< 0x40005420 > { static constexpr const char * name_str = "I2C1::TRISE"; };
+template<> struct address_map< 0x40005800 > { static constexpr const char * name_str = "I2C2::CR1"; };
+template<> struct address_map< 0x40005804 > { static constexpr const char * name_str = "I2C2::CR2"; };
+template<> struct address_map< 0x40005808 > { static constexpr const char * name_str = "I2C2::OAR1"; };
+template<> struct address_map< 0x4000580c > { static constexpr const char * name_str = "I2C2::OAR2"; };
+template<> struct address_map< 0x40005810 > { static constexpr const char * name_str = "I2C2::DR"; };
+template<> struct address_map< 0x40005814 > { static constexpr const char * name_str = "I2C2::SR1"; };
+template<> struct address_map< 0x40005818 > { static constexpr const char * name_str = "I2C2::SR2"; };
+template<> struct address_map< 0x4000581c > { static constexpr const char * name_str = "I2C2::CCR"; };
+template<> struct address_map< 0x40005820 > { static constexpr const char * name_str = "I2C2::TRISE"; };
+template<> struct address_map< 0x40005c00 > { static constexpr const char * name_str = "USB::USB_EP0R"; };
+template<> struct address_map< 0x40005c04 > { static constexpr const char * name_str = "USB::USB_EP1R"; };
+template<> struct address_map< 0x40005c08 > { static constexpr const char * name_str = "USB::USB_EP2R"; };
+template<> struct address_map< 0x40005c0c > { static constexpr const char * name_str = "USB::USB_EP3R"; };
+template<> struct address_map< 0x40005c10 > { static constexpr const char * name_str = "USB::USB_EP4R"; };
+template<> struct address_map< 0x40005c14 > { static constexpr const char * name_str = "USB::USB_EP5R"; };
+template<> struct address_map< 0x40005c18 > { static constexpr const char * name_str = "USB::USB_EP6R"; };
+template<> struct address_map< 0x40005c1c > { static constexpr const char * name_str = "USB::USB_EP7R"; };
+template<> struct address_map< 0x40005c40 > { static constexpr const char * name_str = "USB::USB_CNTR"; };
+template<> struct address_map< 0x40005c44 > { static constexpr const char * name_str = "USB::ISTR"; };
+template<> struct address_map< 0x40005c48 > { static constexpr const char * name_str = "USB::FNR"; };
+template<> struct address_map< 0x40005c4c > { static constexpr const char * name_str = "USB::DADDR"; };
+template<> struct address_map< 0x40005c50 > { static constexpr const char * name_str = "USB::BTABLE"; };
+template<> struct address_map< 0x40006000 > { static constexpr const char * name_str = "USB_SRAM::USB_EP0R"; };
+template<> struct address_map< 0x40006004 > { static constexpr const char * name_str = "USB_SRAM::USB_EP1R"; };
+template<> struct address_map< 0x40006008 > { static constexpr const char * name_str = "USB_SRAM::USB_EP2R"; };
+template<> struct address_map< 0x4000600c > { static constexpr const char * name_str = "USB_SRAM::USB_EP3R"; };
+template<> struct address_map< 0x40006010 > { static constexpr const char * name_str = "USB_SRAM::USB_EP4R"; };
+template<> struct address_map< 0x40006014 > { static constexpr const char * name_str = "USB_SRAM::USB_EP5R"; };
+template<> struct address_map< 0x40006018 > { static constexpr const char * name_str = "USB_SRAM::USB_EP6R"; };
+template<> struct address_map< 0x4000601c > { static constexpr const char * name_str = "USB_SRAM::USB_EP7R"; };
+template<> struct address_map< 0x40006040 > { static constexpr const char * name_str = "USB_SRAM::USB_CNTR"; };
+template<> struct address_map< 0x40006044 > { static constexpr const char * name_str = "USB_SRAM::ISTR"; };
+template<> struct address_map< 0x40006048 > { static constexpr const char * name_str = "USB_SRAM::FNR"; };
+template<> struct address_map< 0x4000604c > { static constexpr const char * name_str = "USB_SRAM::DADDR"; };
+template<> struct address_map< 0x40006050 > { static constexpr const char * name_str = "USB_SRAM::BTABLE"; };
+template<> struct address_map< 0x40007000 > { static constexpr const char * name_str = "PWR::CR"; };
+template<> struct address_map< 0x40007004 > { static constexpr const char * name_str = "PWR::CSR"; };
+template<> struct address_map< 0x40007400 > { static constexpr const char * name_str = "DAC::CR"; };
+template<> struct address_map< 0x40007404 > { static constexpr const char * name_str = "DAC::SWTRIGR"; };
+template<> struct address_map< 0x40007408 > { static constexpr const char * name_str = "DAC::DHR12R1"; };
+template<> struct address_map< 0x4000740c > { static constexpr const char * name_str = "DAC::DHR12L1"; };
+template<> struct address_map< 0x40007410 > { static constexpr const char * name_str = "DAC::DHR8R1"; };
+template<> struct address_map< 0x40007414 > { static constexpr const char * name_str = "DAC::DHR12R2"; };
+template<> struct address_map< 0x40007418 > { static constexpr const char * name_str = "DAC::DHR12L2"; };
+template<> struct address_map< 0x4000741c > { static constexpr const char * name_str = "DAC::DHR8R2"; };
+template<> struct address_map< 0x40007420 > { static constexpr const char * name_str = "DAC::DHR12RD"; };
+template<> struct address_map< 0x40007424 > { static constexpr const char * name_str = "DAC::DHR12LD"; };
+template<> struct address_map< 0x40007428 > { static constexpr const char * name_str = "DAC::DHR8RD"; };
+template<> struct address_map< 0x4000742c > { static constexpr const char * name_str = "DAC::DOR1"; };
+template<> struct address_map< 0x40007430 > { static constexpr const char * name_str = "DAC::DOR2"; };
+template<> struct address_map< 0x40007434 > { static constexpr const char * name_str = "DAC::SR"; };
+template<> struct address_map< 0x40007c00 > { static constexpr const char * name_str = "COMP::CSR"; };
+template<> struct address_map< 0x40007c08 > { static constexpr const char * name_str = "RI::ICR"; };
+template<> struct address_map< 0x40007c0c > { static constexpr const char * name_str = "RI::ASCR1"; };
+template<> struct address_map< 0x40007c10 > { static constexpr const char * name_str = "RI::ASCR2"; };
+template<> struct address_map< 0x40007c14 > { static constexpr const char * name_str = "RI::HYSCR1"; };
+template<> struct address_map< 0x40007c18 > { static constexpr const char * name_str = "RI::HYSCR2"; };
+template<> struct address_map< 0x40007c1c > { static constexpr const char * name_str = "RI::HYSCR3"; };
+template<> struct address_map< 0x40007c20 > { static constexpr const char * name_str = "RI::HYSCR4"; };
+template<> struct address_map< 0x40010000 > { static constexpr const char * name_str = "SYSCFG::MEMRMP"; };
+template<> struct address_map< 0x40010004 > { static constexpr const char * name_str = "SYSCFG::PMC"; };
+template<> struct address_map< 0x40010008 > { static constexpr const char * name_str = "SYSCFG::EXTICR1"; };
+template<> struct address_map< 0x4001000c > { static constexpr const char * name_str = "SYSCFG::EXTICR2"; };
+template<> struct address_map< 0x40010010 > { static constexpr const char * name_str = "SYSCFG::EXTICR3"; };
+template<> struct address_map< 0x40010014 > { static constexpr const char * name_str = "SYSCFG::EXTICR4"; };
+template<> struct address_map< 0x40010400 > { static constexpr const char * name_str = "EXTI::IMR"; };
+template<> struct address_map< 0x40010404 > { static constexpr const char * name_str = "EXTI::EMR"; };
+template<> struct address_map< 0x40010408 > { static constexpr const char * name_str = "EXTI::RTSR"; };
+template<> struct address_map< 0x4001040c > { static constexpr const char * name_str = "EXTI::FTSR"; };
+template<> struct address_map< 0x40010410 > { static constexpr const char * name_str = "EXTI::SWIER"; };
+template<> struct address_map< 0x40010414 > { static constexpr const char * name_str = "EXTI::PR"; };
+template<> struct address_map< 0x40010800 > { static constexpr const char * name_str = "TIM9::CR1"; };
+template<> struct address_map< 0x40010804 > { static constexpr const char * name_str = "TIM9::CR2"; };
+template<> struct address_map< 0x40010808 > { static constexpr const char * name_str = "TIM9::SMCR"; };
+template<> struct address_map< 0x4001080c > { static constexpr const char * name_str = "TIM9::DIER"; };
+template<> struct address_map< 0x40010810 > { static constexpr const char * name_str = "TIM9::SR"; };
+template<> struct address_map< 0x40010814 > { static constexpr const char * name_str = "TIM9::EGR"; };
+template<> struct address_map< 0x40010818 > { static constexpr const char * name_str = "TIM9::CCMR1"; };
+template<> struct address_map< 0x40010824 > { static constexpr const char * name_str = "TIM9::CNT"; };
+template<> struct address_map< 0x40010828 > { static constexpr const char * name_str = "TIM9::PSC"; };
+template<> struct address_map< 0x4001082c > { static constexpr const char * name_str = "TIM9::ARR"; };
+template<> struct address_map< 0x40010834 > { static constexpr const char * name_str = "TIM9::CCR1"; };
+template<> struct address_map< 0x40010838 > { static constexpr const char * name_str = "TIM9::CCR2"; };
+template<> struct address_map< 0x40010850 > { static constexpr const char * name_str = "TIM9::OR"; };
+template<> struct address_map< 0x40010c00 > { static constexpr const char * name_str = "TIM10::CR1"; };
+template<> struct address_map< 0x40010c0c > { static constexpr const char * name_str = "TIM10::DIER"; };
+template<> struct address_map< 0x40010c10 > { static constexpr const char * name_str = "TIM10::SR"; };
+template<> struct address_map< 0x40010c14 > { static constexpr const char * name_str = "TIM10::EGR"; };
+template<> struct address_map< 0x40010c18 > { static constexpr const char * name_str = "TIM10::CCMR1"; };
+template<> struct address_map< 0x40010c20 > { static constexpr const char * name_str = "TIM10::CCER"; };
+template<> struct address_map< 0x40010c24 > { static constexpr const char * name_str = "TIM10::CNT"; };
+template<> struct address_map< 0x40010c28 > { static constexpr const char * name_str = "TIM10::PSC"; };
+template<> struct address_map< 0x40010c2c > { static constexpr const char * name_str = "TIM10::ARR"; };
+template<> struct address_map< 0x40010c34 > { static constexpr const char * name_str = "TIM10::CCR1"; };
+template<> struct address_map< 0x40010c50 > { static constexpr const char * name_str = "TIM10::OR"; };
+template<> struct address_map< 0x40011000 > { static constexpr const char * name_str = "TIM11::CR1"; };
+template<> struct address_map< 0x4001100c > { static constexpr const char * name_str = "TIM11::DIER"; };
+template<> struct address_map< 0x40011010 > { static constexpr const char * name_str = "TIM11::SR"; };
+template<> struct address_map< 0x40011014 > { static constexpr const char * name_str = "TIM11::EGR"; };
+template<> struct address_map< 0x40011018 > { static constexpr const char * name_str = "TIM11::CCMR1"; };
+template<> struct address_map< 0x40011020 > { static constexpr const char * name_str = "TIM11::CCER"; };
+template<> struct address_map< 0x40011024 > { static constexpr const char * name_str = "TIM11::CNT"; };
+template<> struct address_map< 0x40011028 > { static constexpr const char * name_str = "TIM11::PSC"; };
+template<> struct address_map< 0x4001102c > { static constexpr const char * name_str = "TIM11::ARR"; };
+template<> struct address_map< 0x40011034 > { static constexpr const char * name_str = "TIM11::CCR1"; };
+template<> struct address_map< 0x40011050 > { static constexpr const char * name_str = "TIM11::OR"; };
+template<> struct address_map< 0x40012400 > { static constexpr const char * name_str = "ADC::SR"; };
+template<> struct address_map< 0x40012404 > { static constexpr const char * name_str = "ADC::CR1"; };
+template<> struct address_map< 0x40012408 > { static constexpr const char * name_str = "ADC::CR2"; };
+template<> struct address_map< 0x4001240c > { static constexpr const char * name_str = "ADC::SMPR1"; };
+template<> struct address_map< 0x40012410 > { static constexpr const char * name_str = "ADC::SMPR2"; };
+template<> struct address_map< 0x40012414 > { static constexpr const char * name_str = "ADC::SMPR3"; };
+template<> struct address_map< 0x40012418 > { static constexpr const char * name_str = "ADC::JOFR1"; };
+template<> struct address_map< 0x4001241c > { static constexpr const char * name_str = "ADC::JOFR2"; };
+template<> struct address_map< 0x40012420 > { static constexpr const char * name_str = "ADC::JOFR3"; };
+template<> struct address_map< 0x40012424 > { static constexpr const char * name_str = "ADC::JOFR4"; };
+template<> struct address_map< 0x40012428 > { static constexpr const char * name_str = "ADC::HTR"; };
+template<> struct address_map< 0x4001242c > { static constexpr const char * name_str = "ADC::LTR"; };
+template<> struct address_map< 0x40012430 > { static constexpr const char * name_str = "ADC::SQR1"; };
+template<> struct address_map< 0x40012434 > { static constexpr const char * name_str = "ADC::SQR2"; };
+template<> struct address_map< 0x40012438 > { static constexpr const char * name_str = "ADC::SQR3"; };
+template<> struct address_map< 0x4001243c > { static constexpr const char * name_str = "ADC::SQR4"; };
+template<> struct address_map< 0x40012440 > { static constexpr const char * name_str = "ADC::SQR5"; };
+template<> struct address_map< 0x40012444 > { static constexpr const char * name_str = "ADC::JSQR"; };
+template<> struct address_map< 0x40012448 > { static constexpr const char * name_str = "ADC::JDR1"; };
+template<> struct address_map< 0x4001244c > { static constexpr const char * name_str = "ADC::JDR2"; };
+template<> struct address_map< 0x40012450 > { static constexpr const char * name_str = "ADC::JDR3"; };
+template<> struct address_map< 0x40012454 > { static constexpr const char * name_str = "ADC::JDR4"; };
+template<> struct address_map< 0x40012458 > { static constexpr const char * name_str = "ADC::DR"; };
+template<> struct address_map< 0x4001245c > { static constexpr const char * name_str = "ADC::SMPR0"; };
+template<> struct address_map< 0x40012700 > { static constexpr const char * name_str = "C_ADC::CSR"; };
+template<> struct address_map< 0x40012704 > { static constexpr const char * name_str = "C_ADC::CCR"; };
+template<> struct address_map< 0x40013000 > { static constexpr const char * name_str = "SPI1::CR1"; };
+template<> struct address_map< 0x40013004 > { static constexpr const char * name_str = "SPI1::CR2"; };
+template<> struct address_map< 0x40013008 > { static constexpr const char * name_str = "SPI1::SR"; };
+template<> struct address_map< 0x4001300c > { static constexpr const char * name_str = "SPI1::DR"; };
+template<> struct address_map< 0x40013010 > { static constexpr const char * name_str = "SPI1::CRCPR"; };
+template<> struct address_map< 0x40013014 > { static constexpr const char * name_str = "SPI1::RXCRCR"; };
+template<> struct address_map< 0x40013018 > { static constexpr const char * name_str = "SPI1::TXCRCR"; };
+template<> struct address_map< 0x4001301c > { static constexpr const char * name_str = "SPI1::I2SCFGR"; };
+template<> struct address_map< 0x40013020 > { static constexpr const char * name_str = "SPI1::I2SPR"; };
+template<> struct address_map< 0x40013800 > { static constexpr const char * name_str = "USART1::SR"; };
+template<> struct address_map< 0x40013804 > { static constexpr const char * name_str = "USART1::DR"; };
+template<> struct address_map< 0x40013808 > { static constexpr const char * name_str = "USART1::BRR"; };
+template<> struct address_map< 0x4001380c > { static constexpr const char * name_str = "USART1::CR1"; };
+template<> struct address_map< 0x40013810 > { static constexpr const char * name_str = "USART1::CR2"; };
+template<> struct address_map< 0x40013814 > { static constexpr const char * name_str = "USART1::CR3"; };
+template<> struct address_map< 0x40013818 > { static constexpr const char * name_str = "USART1::GTPR"; };
+template<> struct address_map< 0x40020000 > { static constexpr const char * name_str = "GPIOA::MODER"; };
+template<> struct address_map< 0x40020004 > { static constexpr const char * name_str = "GPIOA::OTYPER"; };
+template<> struct address_map< 0x40020008 > { static constexpr const char * name_str = "GPIOA::OSPEEDER"; };
+template<> struct address_map< 0x4002000c > { static constexpr const char * name_str = "GPIOA::PUPDR"; };
+template<> struct address_map< 0x40020010 > { static constexpr const char * name_str = "GPIOA::IDR"; };
+template<> struct address_map< 0x40020014 > { static constexpr const char * name_str = "GPIOA::ODR"; };
+template<> struct address_map< 0x40020018 > { static constexpr const char * name_str = "GPIOA::BSRR"; };
+template<> struct address_map< 0x4002001c > { static constexpr const char * name_str = "GPIOA::LCKR"; };
+template<> struct address_map< 0x40020020 > { static constexpr const char * name_str = "GPIOA::AFRL"; };
+template<> struct address_map< 0x40020024 > { static constexpr const char * name_str = "GPIOA::AFRH"; };
+template<> struct address_map< 0x40020400 > { static constexpr const char * name_str = "GPIOB::MODER"; };
+template<> struct address_map< 0x40020404 > { static constexpr const char * name_str = "GPIOB::OTYPER"; };
+template<> struct address_map< 0x40020408 > { static constexpr const char * name_str = "GPIOB::OSPEEDER"; };
+template<> struct address_map< 0x4002040c > { static constexpr const char * name_str = "GPIOB::PUPDR"; };
+template<> struct address_map< 0x40020410 > { static constexpr const char * name_str = "GPIOB::IDR"; };
+template<> struct address_map< 0x40020414 > { static constexpr const char * name_str = "GPIOB::ODR"; };
+template<> struct address_map< 0x40020418 > { static constexpr const char * name_str = "GPIOB::BSRR"; };
+template<> struct address_map< 0x4002041c > { static constexpr const char * name_str = "GPIOB::LCKR"; };
+template<> struct address_map< 0x40020420 > { static constexpr const char * name_str = "GPIOB::AFRL"; };
+template<> struct address_map< 0x40020424 > { static constexpr const char * name_str = "GPIOB::AFRH"; };
+template<> struct address_map< 0x40020800 > { static constexpr const char * name_str = "GPIOC::MODER"; };
+template<> struct address_map< 0x40020804 > { static constexpr const char * name_str = "GPIOC::OTYPER"; };
+template<> struct address_map< 0x40020808 > { static constexpr const char * name_str = "GPIOC::OSPEEDER"; };
+template<> struct address_map< 0x4002080c > { static constexpr const char * name_str = "GPIOC::PUPDR"; };
+template<> struct address_map< 0x40020810 > { static constexpr const char * name_str = "GPIOC::IDR"; };
+template<> struct address_map< 0x40020814 > { static constexpr const char * name_str = "GPIOC::ODR"; };
+template<> struct address_map< 0x40020818 > { static constexpr const char * name_str = "GPIOC::BSRR"; };
+template<> struct address_map< 0x4002081c > { static constexpr const char * name_str = "GPIOC::LCKR"; };
+template<> struct address_map< 0x40020820 > { static constexpr const char * name_str = "GPIOC::AFRL"; };
+template<> struct address_map< 0x40020824 > { static constexpr const char * name_str = "GPIOC::AFRH"; };
+template<> struct address_map< 0x40020c00 > { static constexpr const char * name_str = "GPIOD::MODER"; };
+template<> struct address_map< 0x40020c04 > { static constexpr const char * name_str = "GPIOD::OTYPER"; };
+template<> struct address_map< 0x40020c08 > { static constexpr const char * name_str = "GPIOD::OSPEEDER"; };
+template<> struct address_map< 0x40020c0c > { static constexpr const char * name_str = "GPIOD::PUPDR"; };
+template<> struct address_map< 0x40020c10 > { static constexpr const char * name_str = "GPIOD::IDR"; };
+template<> struct address_map< 0x40020c14 > { static constexpr const char * name_str = "GPIOD::ODR"; };
+template<> struct address_map< 0x40020c18 > { static constexpr const char * name_str = "GPIOD::BSRR"; };
+template<> struct address_map< 0x40020c1c > { static constexpr const char * name_str = "GPIOD::LCKR"; };
+template<> struct address_map< 0x40020c20 > { static constexpr const char * name_str = "GPIOD::AFRL"; };
+template<> struct address_map< 0x40020c24 > { static constexpr const char * name_str = "GPIOD::AFRH"; };
+template<> struct address_map< 0x40023000 > { static constexpr const char * name_str = "CRC::DR"; };
+template<> struct address_map< 0x40023004 > { static constexpr const char * name_str = "CRC::IDR"; };
+template<> struct address_map< 0x40023008 > { static constexpr const char * name_str = "CRC::CR"; };
+template<> struct address_map< 0x40023800 > { static constexpr const char * name_str = "RCC::CR"; };
+template<> struct address_map< 0x40023804 > { static constexpr const char * name_str = "RCC::ICSCR"; };
+template<> struct address_map< 0x40023808 > { static constexpr const char * name_str = "RCC::CFGR"; };
+template<> struct address_map< 0x4002380c > { static constexpr const char * name_str = "RCC::CIR"; };
+template<> struct address_map< 0x40023810 > { static constexpr const char * name_str = "RCC::AHBRSTR"; };
+template<> struct address_map< 0x40023814 > { static constexpr const char * name_str = "RCC::APB2RSTR"; };
+template<> struct address_map< 0x40023818 > { static constexpr const char * name_str = "RCC::APB1RSTR"; };
+template<> struct address_map< 0x4002381c > { static constexpr const char * name_str = "RCC::AHBENR"; };
+template<> struct address_map< 0x40023820 > { static constexpr const char * name_str = "RCC::APB2ENR"; };
+template<> struct address_map< 0x40023824 > { static constexpr const char * name_str = "RCC::APB1ENR"; };
+template<> struct address_map< 0x40023828 > { static constexpr const char * name_str = "RCC::AHBLPENR"; };
+template<> struct address_map< 0x4002382c > { static constexpr const char * name_str = "RCC::APB2LPENR"; };
+template<> struct address_map< 0x40023830 > { static constexpr const char * name_str = "RCC::APB1LPENR"; };
+template<> struct address_map< 0x40023834 > { static constexpr const char * name_str = "RCC::CSR"; };
+template<> struct address_map< 0x40023c00 > { static constexpr const char * name_str = "Flash::ACR"; };
+template<> struct address_map< 0x40023c04 > { static constexpr const char * name_str = "Flash::PECR"; };
+template<> struct address_map< 0x40023c08 > { static constexpr const char * name_str = "Flash::PDKEYR"; };
+template<> struct address_map< 0x40023c0c > { static constexpr const char * name_str = "Flash::PEKEYR"; };
+template<> struct address_map< 0x40023c10 > { static constexpr const char * name_str = "Flash::PRGKEYR"; };
+template<> struct address_map< 0x40023c14 > { static constexpr const char * name_str = "Flash::OPTKEYR"; };
+template<> struct address_map< 0x40023c18 > { static constexpr const char * name_str = "Flash::SR"; };
+template<> struct address_map< 0x40023c1c > { static constexpr const char * name_str = "Flash::OBR"; };
+template<> struct address_map< 0x40023c20 > { static constexpr const char * name_str = "Flash::WRPR1"; };
+template<> struct address_map< 0x40023c80 > { static constexpr const char * name_str = "Flash::WRPR2"; };
+template<> struct address_map< 0x40023c84 > { static constexpr const char * name_str = "Flash::WRPR3"; };
+template<> struct address_map< 0x40026000 > { static constexpr const char * name_str = "DMA::ISR"; };
+template<> struct address_map< 0x40026004 > { static constexpr const char * name_str = "DMA::IFCR"; };
+template<> struct address_map< 0x40026008 > { static constexpr const char * name_str = "DMA::CCR1"; };
+template<> struct address_map< 0x4002600c > { static constexpr const char * name_str = "DMA::CNDTR1"; };
+template<> struct address_map< 0x40026010 > { static constexpr const char * name_str = "DMA::CPAR1"; };
+template<> struct address_map< 0x40026014 > { static constexpr const char * name_str = "DMA::CMAR1"; };
+template<> struct address_map< 0x4002601c > { static constexpr const char * name_str = "DMA::CCR2"; };
+template<> struct address_map< 0x40026020 > { static constexpr const char * name_str = "DMA::CNDTR2"; };
+template<> struct address_map< 0x40026024 > { static constexpr const char * name_str = "DMA::CPAR2"; };
+template<> struct address_map< 0x40026028 > { static constexpr const char * name_str = "DMA::CMAR2"; };
+template<> struct address_map< 0x40026030 > { static constexpr const char * name_str = "DMA::CCR3"; };
+template<> struct address_map< 0x40026034 > { static constexpr const char * name_str = "DMA::CNDTR3"; };
+template<> struct address_map< 0x40026038 > { static constexpr const char * name_str = "DMA::CPAR3"; };
+template<> struct address_map< 0x4002603c > { static constexpr const char * name_str = "DMA::CMAR3"; };
+template<> struct address_map< 0x40026044 > { static constexpr const char * name_str = "DMA::CCR4"; };
+template<> struct address_map< 0x40026048 > { static constexpr const char * name_str = "DMA::CNDTR4"; };
+template<> struct address_map< 0x4002604c > { static constexpr const char * name_str = "DMA::CPAR4"; };
+template<> struct address_map< 0x40026050 > { static constexpr const char * name_str = "DMA::CMAR4"; };
+template<> struct address_map< 0x40026058 > { static constexpr const char * name_str = "DMA::CCR5"; };
+template<> struct address_map< 0x4002605c > { static constexpr const char * name_str = "DMA::CNDTR5"; };
+template<> struct address_map< 0x40026060 > { static constexpr const char * name_str = "DMA::CPAR5"; };
+template<> struct address_map< 0x40026064 > { static constexpr const char * name_str = "DMA::CMAR5"; };
+template<> struct address_map< 0x4002606c > { static constexpr const char * name_str = "DMA::CCR6"; };
+template<> struct address_map< 0x40026070 > { static constexpr const char * name_str = "DMA::CNDTR6"; };
+template<> struct address_map< 0x40026074 > { static constexpr const char * name_str = "DMA::CPAR6"; };
+template<> struct address_map< 0x40026078 > { static constexpr const char * name_str = "DMA::CMAR6"; };
+template<> struct address_map< 0x40026080 > { static constexpr const char * name_str = "DMA::CCR7"; };
+template<> struct address_map< 0x40026084 > { static constexpr const char * name_str = "DMA::CNDTR7"; };
+template<> struct address_map< 0x40026088 > { static constexpr const char * name_str = "DMA::CPAR7"; };
+template<> struct address_map< 0x4002608c > { static constexpr const char * name_str = "DMA::CMAR7"; };
+template<> struct address_map< 0xe000e004 > { static constexpr const char * name_str = "NVIC::ICTR"; };
+template<> struct address_map< 0xe000e100 > { static constexpr const char * name_str = "NVIC::ISER0"; };
+template<> struct address_map< 0xe000e104 > { static constexpr const char * name_str = "NVIC::ISER1"; };
+template<> struct address_map< 0xe000e180 > { static constexpr const char * name_str = "NVIC::ICER0"; };
+template<> struct address_map< 0xe000e184 > { static constexpr const char * name_str = "NVIC::ICER1"; };
+template<> struct address_map< 0xe000e200 > { static constexpr const char * name_str = "NVIC::ISPR0"; };
+template<> struct address_map< 0xe000e204 > { static constexpr const char * name_str = "NVIC::ISPR1"; };
+template<> struct address_map< 0xe000e280 > { static constexpr const char * name_str = "NVIC::ICPR0"; };
+template<> struct address_map< 0xe000e284 > { static constexpr const char * name_str = "NVIC::ICPR1"; };
+template<> struct address_map< 0xe000e300 > { static constexpr const char * name_str = "NVIC::IABR0"; };
+template<> struct address_map< 0xe000e304 > { static constexpr const char * name_str = "NVIC::IABR1"; };
+template<> struct address_map< 0xe000e400 > { static constexpr const char * name_str = "NVIC::IPR0"; };
+template<> struct address_map< 0xe000e404 > { static constexpr const char * name_str = "NVIC::IPR1"; };
+template<> struct address_map< 0xe000e408 > { static constexpr const char * name_str = "NVIC::IPR2"; };
+template<> struct address_map< 0xe000e40c > { static constexpr const char * name_str = "NVIC::IPR3"; };
+template<> struct address_map< 0xe000e410 > { static constexpr const char * name_str = "NVIC::IPR4"; };
+template<> struct address_map< 0xe000e414 > { static constexpr const char * name_str = "NVIC::IPR5"; };
+template<> struct address_map< 0xe000e418 > { static constexpr const char * name_str = "NVIC::IPR6"; };
+template<> struct address_map< 0xe000e41c > { static constexpr const char * name_str = "NVIC::IPR7"; };
+template<> struct address_map< 0xe000e420 > { static constexpr const char * name_str = "NVIC::IPR8"; };
+template<> struct address_map< 0xe000e424 > { static constexpr const char * name_str = "NVIC::IPR9"; };
+template<> struct address_map< 0xe000e428 > { static constexpr const char * name_str = "NVIC::IPR10"; };
+template<> struct address_map< 0xe000e42c > { static constexpr const char * name_str = "NVIC::IPR11"; };
+template<> struct address_map< 0xe000e430 > { static constexpr const char * name_str = "NVIC::IPR12"; };
+template<> struct address_map< 0xe000e434 > { static constexpr const char * name_str = "NVIC::IPR13"; };
+template<> struct address_map< 0xe000ef00 > { static constexpr const char * name_str = "NVIC::STIR"; };
+
+} // namespace mptl
+
+#endif // ARCH_REG_ADDRESS_MAP_HPP_INCLUDED
